@@ -1,0 +1,78 @@
+{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+header {
+    color: whitesmoke;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 100px;
+
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-7px);
+        color:darkcyan;
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.card {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(1, 159, 190) 100%);
+    max-width: 25%;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    padding: 4%;
+    line-height: 2;
+    border-radius: 15px;
+    border-style:inset;
+    border-color: darkcyan;
+}
+
+.lineInput {
+    display: grid;
+    margin-bottom: 10px;
+}
+
+input{
+    padding: 6px;
+    border: 3px;
+    border-style: none none solid none;
+    border-color: darkcyan;
+    border-radius: 6px;
+    margin: 5px;
+    outline: 0;
+    background-color: whitesmoke;
+}
+
+button {
+    padding: 9px;
+    width: 185px;
+    border: 0;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    color: rgb(223, 215, 215);
+    background-color: darkcyan;
+    font-weight: bold;
+    transition: all ease 0.3s;
+}
+
+button:hover {
+    background-color: rgb(3, 180, 180);
+}
