@@ -76,3 +76,20 @@ button {
 button:hover {
     background-color: rgb(3, 180, 180);
 }
+
+.corte {
+    background: rgb(98, 118, 122);
+    
+    max-width: 25%;
+    margin: left;
+    margin-top: 30px;
+    text-align: center;
+    padding: 4%;
+    line-height: 2;
+    border-radius: 15px;
+    border-style:inset;
+    border-color: darkcyan;
+}
+.stilo {
+    width: 150px
+}
