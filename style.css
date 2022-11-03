@@ -93,3 +93,29 @@ button:hover {
 .stilo {
     width: 150px
 }
+
+.escolher{
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 400px;
+    height: 300px;
+    background-color: bisque;
+    
+}
+
+.agrupar{
+   
+    padding-left: 5%;
+    padding-block: 5px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: rgb(94, 76, 54);
+}
+table {
+    border: 2px solid black;
+    width: 380px;
+    height: 280px;
+}
+td {
+    align="center";
